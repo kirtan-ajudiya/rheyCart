@@ -1,0 +1,177 @@
+ /* .popup{
+    position: absolute;
+    left: 50%;
+  } */
+/*
+  .popup{
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    top: -150%;
+    max-width: 380px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: top 0s 0.2s ease-in-out,
+                opacity 0.2s 0s ease-in-out,
+                transform 0.2s 0s ease-in-out;
+  } */
+
+  /* .popup.show{
+    top: 50%;
+    opacity: 1;
+    pointer-events: auto;
+    transform:translate(-50%, -50%) scale(1);
+    transition: top 0s 0s ease-in-out,
+                opacity 0.2s 0s ease-in-out,
+                transform 0.2s 0s ease-in-out;
+    z-index: 999;
+
+  } */
+
+  .share_popup :is(headers, .icons, .field){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .share_popup headers{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebedf9;
+  }
+  .share_popup headers span{
+    font-size: 21px;
+    font-weight: 600;
+  }
+  .share_popup headers .close, .icons a{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+.share_popup headers .close{
+    color: #878787;
+    font-size: 17px;
+    background: #f2f3fb;
+    height: 33px;
+    width: 33px;
+    cursor: pointer;
+  }
+  .share_popup headers .close:hover{
+    background: #ebedf9;
+  }
+  .share_popup  .content{
+    margin: 20px 0;
+  }
+  .share_popup  .icons{
+    margin: 15px 0 20px 0;
+  }
+  .share_popup p{
+    font-size: 16px;
+  }
+  .share_popup .icons a{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    margin: 0 5px;
+  }
+  .share_popup .icons a i{
+    transition: transform 0.3s ease-in-out;
+  }
+  .share_popup .icons a:nth-child(1){
+    color: #1877F2;
+    border-color: #b7d4fb;
+  }
+  .share_popup .icons a:nth-child(1):hover{
+    background: #1877F2;
+  }
+  .share_popup .icons a:nth-child(2){
+    color: #46C1F6;
+    border-color: #b6e7fc;
+  }
+  .share_popup .icons a:nth-child(2):hover{
+    background: #46C1F6;
+  }
+  .share_popup .icons a:nth-child(3){
+    color: #e1306c;
+    border-color: #f5bccf;
+  }
+  .share_popup .icons a:nth-child(3):hover{
+    background: #e1306c;
+  }
+  .share_popup .icons a:nth-child(4){
+    color: #25D366;
+    border-color: #bef4d2;
+  }
+  .share_popup .icons a:nth-child(4):hover{
+    background: #25D366;
+  }
+  .share_popup .icons a:nth-child(5){
+    color: #0088cc;
+    border-color: #b3e6ff;
+  }
+  .share_popup .icons a:nth-child(5):hover{
+    background: #0088cc;
+  }
+  .share_popup .icons a:hover{
+    color: #fff;
+    border-color: transparent;
+  }
+  .share_popup .icons a:hover i{
+    transform: scale(1.2);
+  }
+  .share_popup .field{
+    margin: 12px 0 -5px 0;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 5px;
+    border: 1px solid #e1e1e1;
+  }
+  .share_popup .field.active{
+    border-color: #7d2ae8;
+  }
+  .share_popup .field i{
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .share_popup .field.active i{
+    color: #7d2ae8;
+  }
+  .share_popup .field input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+  .share_popup .field button{
+
+  }
+  .share_popup .field button:hover{
+
+  }
+
+
+  .mega-box.w-20 {
+      width: 310px;
+      top: 26px !important;
+      left: -160px;
+  }
+
+  .mega-box.w-20 .content .row {
+    width: 100%;
+  }
+
+.sticky nav .wrapper {
+    line-height: 0px;
+}
+
+.sticky .wrapper .nav-links {
+  margin-left: 30px !important;
+}
